@@ -27,6 +27,7 @@ End the program.
 # program to find the number of words in a text file
 # Developed by :Daniel C
 # Register number : 212223240023
+```
 num=0
 with open("file.txt","r") as f1:
     for i in f1:
@@ -34,6 +35,7 @@ with open("file.txt","r") as f1:
         num+=len(word)
 print("The number of words are in the file is",num)
 
+```
 ### OUTPUT:
 ![image](https://github.com/Daniel-christal/Word-count/assets/145742847/0b3a0c20-03d7-4d74-adcd-f5019b4b8953)
 
