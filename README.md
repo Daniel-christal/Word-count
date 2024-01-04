@@ -25,19 +25,21 @@ End the program.
 
 ## PROGRAM:
 ```
+
 # program to find the number of words in a text file
 # Developed by :Daniel C
 # Register number : 212223240023
-num=0
-with open("file.txt","r") as f1:
-    for i in f1:
-        word=i.split()
-        num+=len(word)
-print("The number of words are in the file is",num)
+fname=input("Enter the file name:")
+num_words=0
+with open(fname,"r") as f:
+for line in f:
+words=line.split()
+num_words+=len(words)
+print("Number of words:",num_words)
 
 ```
 ### OUTPUT:
-![image](https://github.com/Daniel-christal/Word-count/assets/145742847/0b3a0c20-03d7-4d74-adcd-f5019b4b8953)
+![image](https://github.com/Daniel-christal/Word-count/assets/145742847/e4ffdf07-9980-460d-8768-6dac37ebb9ad)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
