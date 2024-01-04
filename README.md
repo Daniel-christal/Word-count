@@ -24,10 +24,10 @@ You can refine the count by cleaning the string prior to splitting or validating
 End the program.
 
 ## PROGRAM:
+```
 # program to find the number of words in a text file
 # Developed by :Daniel C
 # Register number : 212223240023
-```
 num=0
 with open("file.txt","r") as f1:
     for i in f1:
